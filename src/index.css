@@ -998,6 +998,60 @@ h4 {
   .celebration-balloon-10 { left: 92%; }
 }
 
+@media (max-width: 480px) {
+  .painted-page main {
+    padding: 32px 12px 48px;
+  }
+
+  .watercolor-flower {
+    width: 58px;
+    opacity: 0.2;
+  }
+
+  .collage-grid {
+    gap: 8px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .collage-item,
+  .collage-item.tall,
+  .collage-item.video,
+  .collage-item.large,
+  .collage-item.wide {
+    min-height: 160px;
+    border-radius: 15px;
+  }
+
+  .painted-card,
+  .painted-details {
+    padding: 20px 14px;
+    border-radius: 22px;
+  }
+
+  .watercolor-details-list {
+    padding: 14px;
+  }
+
+  .watercolor-details-list > div {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .watercolor-details-list p {
+    overflow-wrap: anywhere;
+  }
+
+  .letter-button {
+    width: min(100%, 300px);
+    height: 178px;
+  }
+
+  .letter-button__name {
+    font-size: 2.5rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .celebration-balloon,
   .balloon-string {
